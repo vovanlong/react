@@ -44,6 +44,8 @@
 
 ## Coding Test
 
+### Để thực hiện bài test này, Học viên sẽ cần sử dụng Visual Studio Code hoặc Sublime Text và [Webtoolkitonline](https://www.webtoolkitonline.com/javascript-tester.html) 
+
 ### 1. Less or Equal
 You are given a vector of integers and integer number k. You should return an integer number x such that exactly k elements of given vector are less than or equal to x.
 Note:
@@ -58,6 +60,7 @@ lessEqual([3, 7, 6, 1, 10, 3, 20], 4) == 6
 lessEqual([3, 7, 6, 1, 10, 3, 20], 2) == -1
 ```
 
+Solution: 
 ```js
 function lessEqual(arr,k){
     //..
@@ -73,6 +76,7 @@ solve([3,4,4,3,6,3]) = [4,6,3]
 -- remove the 3 in index 0 and index 3
 -- remove the 4 in index 1
 
+Solution: 
 ```js
 function solve(arr){
     //..
@@ -86,8 +90,14 @@ to_binary(1)  /* should return 1 */
 to_binary(5)  /* should return 101 */
 to_binary(11) /* should return 1011 */
 ```
+
+Solution: 
 ```js
 function toBinary(n){
   return n;
 }
 ```
+
+### Phương thức nộp bài làm
+
+Sau khi kết thúc bài test, Học viên lưu lại bài làm của mình dưới dạng: HọTên-genbacoder-react-native-entry-test.MD và gửi đến địa chỉ: vinh.hoang@genbacoder.com
