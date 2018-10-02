@@ -5,6 +5,8 @@
 - Học Viên: <Họ và tên>
 - Ngày test: <dd-mm-yyyy>
 
+## Để thực hiện bài test này, Học viên sẽ cần sử dụng Visual Studio Code hoặc Sublime Text và [Webtoolkitonline](https://www.webtoolkitonline.com/javascript-tester.html) để chạy code Javascript. Học viên sẽ download file "react-native-entry-test.md" từ Gitlab để bắt đầu làm bài
+
 ## GMAT
 
 ### 1. Một bữa ăn ở nhà hàng chưa tính tiền phục vụ hết 35.50 $. Nếu phí phục vụ lớn hơn 10% và nhỏ hơn 15% số tiền bữa ăn thì toàn bộ số tiền cho bữa ăn là bao nhiêu giữa các khoảng?
@@ -44,26 +46,28 @@
 
 ## Coding Test
 
-### Để thực hiện bài test này, Học viên sẽ cần sử dụng Visual Studio Code hoặc Sublime Text và [Webtoolkitonline](https://www.webtoolkitonline.com/javascript-tester.html) 
+### 1. Cat and Mouse - Easy Version
+You will be given a string (x) featuring a cat 'C' and a mouse 'm'. The rest of the string will be made up of '.'.
 
-### 1. Less or Equal
-You are given a vector of integers and integer number k. You should return an integer number x such that exactly k elements of given vector are less than or equal to x.
-Note:
-- The vector can contain equal elements, All the element of the vectors are guaranteed to positive and k ≥ 0.
-- Lowest value that satisfies the criteria should be returned
-- -1 should be returned if there are no values that satisfies the criteria.
-- The result has to be ≥ 1 or -1 and one can't return 0.
+You need to find out if the cat can catch the mouse from it's current position. The cat can jump over three characters. So:
 
-Example:
+C.....m returns 'Escaped!' <-- more than three characters between
+
+C...m returns 'Caught!' <-- as there are three characters between the two, the cat can jump.
+
+Sample tests: 
 ```js
-lessEqual([3, 7, 6, 1, 10, 3, 20], 4) == 6
-lessEqual([3, 7, 6, 1, 10, 3, 20], 2) == -1
+Test.describe("Example tests",_=>{
+Test.assertEquals(catMouse('C....m'), "Escaped!");
+Test.assertEquals(catMouse('C..m'), "Caught!");
+Test.assertEquals(catMouse('C.....m'), "Escaped!");
+});
 ```
 
 Solution: 
 ```js
-function lessEqual(arr,k){
-    //..
+function catMouse(x){
+    // Your code here
 }
 ```
 
