@@ -11,6 +11,7 @@
 - Bạn là lập trình viên Web Frontend và muốn bổ sung kỹ năng phát triển ứng dụng di động 
 - Bạn là lập trình viên Backend và muốn trở thành lập trình viên fullstack
 - Bạn đã tham gia những khóa học React Native trước đây và thấy chương trình học không được như mong muốn của bạn vì chất lượng và mất động lực trong khi học
+- Bàn là sinh viên và muốn nâng cao kỹ năng để chuẩn bị bước vào con đường trở thành lập trình viên
 
 ### Tools
 - Máy tính cá nhân (Linux, Mac, Windows)
