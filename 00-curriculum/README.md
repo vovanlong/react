@@ -49,10 +49,13 @@
 - Code Practice: Coinmarketcap clone (chức năng: Realtime, đồ thị giá, tin tức về Crypto)
 
 ### Tuần 6
-- Code Walkthrough: `Animation`, `Webview`
+- Code Walkthrough: `Animation`, `Webview`, quy trình làm ứng dựng
 - Code Lab:
 - Code Practice: Coinmarketcap clone (chức năng: login với Facebook, Chat, chia sẻ thông tin)
 
-### Tuần 7 & 8
+### Tuần 7
+- Code Walkthrough: tối ưu ứng dụng, communication giữa React Native và Native
 - Xây dựng dự án cá nhân
+### Tuần 8
+- Xây dựng dự án cá nhân (cont.)
 - DEMO Day
