@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, View, Text, Switch, TouchableOpacity, ScrollView} from 'react-native';
+import {StyleSheet, View, Text} from 'react-native';
 
 type Props = {};
 export default class App extends Component<Props> {
