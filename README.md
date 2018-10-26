@@ -5,6 +5,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/emulator
 
 
-reset apache  sudo npm start -- --reset-cache
+reset apache  ``sudo npm start -- --reset-cache``
 
 link fonts assets ``react-native link``
