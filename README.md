@@ -8,3 +8,4 @@ export PATH=$PATH:$ANDROID_HOME/emulator``
 reset apache  ``sudo npm start -- --reset-cache``
 
 link fonts assets ``react-native link``
+console log of react native: ``react-native log-android``
