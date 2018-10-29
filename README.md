@@ -20,19 +20,19 @@ async,
 await
 
 week2: 
-ScrollView: chỉ phép được chưa 1 view,(lưu ý phải dùng flex:1) để set
-refreshControl: dùng trong xoay màn hình, dọc màn hình k hổ trợ
+ScrollView: chỉ phép được chưa 1 view,(lưu ý phải dùng flex:1) để set<br />
+refreshControl: dùng trong xoay màn hình, dọc màn hình k hổ trợ<br />
 ActivityIndicator: dùng trong chức năng loading pending chức năng
-stickyHeaderIndices: giống danh bạ điện thoại, kéo xuống có kém theo kí tự,
+stickyHeaderIndices: giống danh bạ điện thoại, kéo xuống có kém theo kí tự,<br />
 flatlist: <br/>
 ``<FlatList
   data={[{key: 'a'}, {key: 'b'}]}
   renderItem={({item}) => <Text>{item.key}</Text>}
 />``
-keyExtractor: ``(item: object, index: number) => string;``
-ví dụ muốn gắn id từ một Api về thì dùng, 
-  + item
-  + index
+keyExtractor: ``(item: object, index: number) => string;``<br />
+ví dụ muốn gắn id từ một Api về thì dùng, <br />
+  + item<br />
+  + index<br />
   
   ``_renderItem=({item}) => {
   return(<text style={{}}>item.name</text>)})``
