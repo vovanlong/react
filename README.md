@@ -37,8 +37,8 @@ week2:
 ``_renderItem=({item}) => {``
     ``return(<text style={{}}>item.name</text>)})``
     <br/>
-    ``ListHeaderComponent``:
-    ``numColumns`` : chỉ áp dụng dọc, giống kiểu phan trang 
-    ``onRefresh``: băt buộc them cái  refreshing, cái ni có nghĩa là sẽ load "pull to refresh" kéo màn hình xuống nó load load 
-    .``onEndReached``: bắt buộc phải có onEndReachedThreshold ví onEndReachedThreshold={0.5} khi mình kéo khoảng bao niêu đó thì nó sẽ loadmore
+    ``ListHeaderComponent``:<br />
+    ``numColumns`` : chỉ áp dụng dọc, giống kiểu phan trang <br />
+    ``onRefresh``: băt buộc them cái  refreshing, cái ni có nghĩa là sẽ load "pull to refresh" kéo màn hình xuống nó load load <br />
+    .``onEndReached``: bắt buộc phải có onEndReachedThreshold ví onEndReachedThreshold={0.5} khi mình kéo khoảng bao niêu đó thì nó sẽ loadmore<br />
 
