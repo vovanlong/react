@@ -26,15 +26,19 @@ week2:
 ``stickyHeaderIndices``: giống danh bạ điện thoại, kéo xuống có kém theo kí tự,<br />
 ``flatlist:`` <br/>
 ``<FlatList
-  data={[{key: 'a'}, {key: 'b'}]}
-  renderItem={({item}) => <Text>{item.key}</Text>}
-/>``
-``keyExtractor:`` ``(item: object, index: number) => string;``<br />
-ví dụ muốn gắn id từ một Api về thì dùng, <br />
-  + item<br />
-  + index<br />
-  
-  ``_renderItem=({item}) => {
-  return(<text style={{}}>item.name</text>)})``
-  <br/>
-  ``ListHeaderComponent``: 
+    data={[{key: 'a'}, {key: 'b'}]}
+    renderItem={({item}) => <Text>{item.key}</Text>}
+  />``
+  ``keyExtractor:`` ``(item: object, index: number) => string;``<br />
+  ví dụ muốn gắn id từ một Api về thì dùng, <br />
+    + item<br />
+    + index<br />
+
+    ``_renderItem=({item}) => {
+    return(<text style={{}}>item.name</text>)})``
+    <br/>
+    ``ListHeaderComponent``:
+    ``numColumns`` : chỉ áp dụng dọc, giống kiểu phan trang 
+    ``onRefresh``: băt buộc them cái  refreshing, cái ni có nghĩa là sẽ load "pull to refresh" kéo màn hình xuống nó load load 
+    .``onEndReached``: bắt buộc phải có onEndReachedThreshold ví onEndReachedThreshold={0.5} khi mình kéo khoảng bao niêu đó thì nó sẽ loadmore
+
