@@ -29,13 +29,13 @@ week2:
     data={[{key: 'a'}, {key: 'b'}]}
     renderItem={({item}) => <Text>{item.key}</Text>}
   />``
-  ``keyExtractor:`` ``(item: object, index: number) => string;``<br />
+  ``keyExtractor:(item: object, index: number) => string;``<br />
   ví dụ muốn gắn id từ một Api về thì dùng, <br />
     + item<br />
     + index<br />
 
-    ``_renderItem=({item}) => {
-    return(<text style={{}}>item.name</text>)})``
+``_renderItem=({item}) => {``
+    ``return(<text style={{}}>item.name</text>)})``
     <br/>
     ``ListHeaderComponent``:
     ``numColumns`` : chỉ áp dụng dọc, giống kiểu phan trang 
