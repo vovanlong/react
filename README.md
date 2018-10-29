@@ -14,3 +14,8 @@ link fonts assets ``react-native link``
 console log of react native: ``react-native log-android``
 <br/>
 site debugger react native: ``http://localhost:8081/debugger-ui``
+
+Promise
+async
+await
+
