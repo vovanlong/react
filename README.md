@@ -42,32 +42,4 @@ week2:
     ``onRefresh``: băt buộc them cái  refreshing, cái ni có nghĩa là sẽ load "pull to refresh" kéo màn hình xuống nó load load <br />
     .``onEndReached``: bắt buộc phải có onEndReachedThreshold ví onEndReachedThreshold={0.5} khi mình kéo khoảng bao niêu đó thì nó sẽ loadmore<br />
 
-``if (number >= 0) {
-      if (this.state.minute > 0) {
-        if (number <= 9) {
-          this.setState({
-            seconds: `0${number}`
-          });
-        } else {
-          this.setState({
-            seconds: `${number}`
-          });
-        }
-      } else if (this.state.minute == 0) {
-        if (parseInt(this.state.seconds) >= 0) {
-          if (number <= 9) {
-            this.setState({
-              seconds: `0${number}`
-            });
-          } else {
-            this.setState({
-              seconds: `${number}`
-            });
-          }
-        } else {
-          alert('vovanlong');
-        }
-      }
-    } else {
-      alert('vovanlong');
-    }``
+về hàm ``setInterval``:  hàm ngày có tác dụng giống setTimeout trong nodejs, nó dùng để chạy một func gì đó sau 1 thời gian nhất định, muốn dừng thì ta cần phải thêm một người bạn của nó ``clearInterval`` 
