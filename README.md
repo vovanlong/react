@@ -43,3 +43,20 @@ week2:
     .``onEndReached``: bắt buộc phải có onEndReachedThreshold ví onEndReachedThreshold={0.5} khi mình kéo khoảng bao niêu đó thì nó sẽ loadmore<br />
 
 về hàm ``setInterval``:  hàm ngày có tác dụng giống setTimeout trong nodejs, nó dùng để chạy một func gì đó sau 1 thời gian nhất định, muốn dừng thì ta cần phải thêm một người bạn của nó ``clearInterval`` 
+
+<br/>
+<br/>
+<br/>
+Day 2: week
+``ImageBackground`` : để ảnh nền
+``return (
+  <ImageBackground source={...} style={{width: '100%', height: '100%'}}>
+    <Text>Inside</Text>
+  </ImageBackground>
+);``
+
+Get API
+Fetch: 
+thư viện Axios
+Hoistring: 
+
