@@ -47,7 +47,7 @@ về hàm ``setInterval``:  hàm ngày có tác dụng giống setTimeout trong 
 <br/>
 <br/>
 <br/>
-Day 2: week
+Day 2: week2
 ``ImageBackground`` : để ảnh nền
 ``return (
   <ImageBackground source={...} style={{width: '100%', height: '100%'}}>
@@ -59,4 +59,10 @@ Get API
 Fetch: 
 thư viện Axios
 Hoistring: 
+
+Day 3: week 3
+
+
+
+
 
