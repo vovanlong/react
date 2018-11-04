@@ -29,6 +29,9 @@ week2:
     data={[{key: 'a'}, {key: 'b'}]}
     renderItem={({item}) => <Text>{item.key}</Text>}
   />``
+  đi sâu vào flatList gồm các thuộc tính.<br/>
+    data={...}: danh sách các đối tượng mình đưa vào flatlist
+    renderItem={{item, index}} 
   ``keyExtractor:(item: object, index: number) => string;``<br />
   ví dụ muốn gắn id từ một Api về thì dùng, <br />
     + item<br />
