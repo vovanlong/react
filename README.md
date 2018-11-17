@@ -67,5 +67,4 @@ Day 3: week 3
 
 ######6.Tiêu đề cấp 6
 
-
-
+sudo chown long /dev/kvm
