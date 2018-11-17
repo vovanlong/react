@@ -68,3 +68,30 @@ Day 3: week 3
 ######6.Tiêu đề cấp 6
 
 sudo chown long /dev/kvm
+
+``{
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.fontSize": 15,
+
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "npm-intellisense.importES6": true,
+  "npm-intellisense.importQuotes": "'",
+  "npm-intellisense.importLinebreak": ";\r\n",
+  "npm-intellisense.importDeclarationType": "const",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "βui - Material",
+  "window.zoomLevel": 0,
+  "editor.fontSize": 16,
+  "vsicons.projectDetection.autoReload": true
+}
+``
