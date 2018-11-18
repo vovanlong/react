@@ -96,7 +96,7 @@ sudo chown long /dev/kvm
 }
 
 <br/>
-``echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances``<br/>
-``echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events``<br/>
-``echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches``<br/>
-``watchman shutdown-server``<br/>
+echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances<br/>
+echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events<br/>
+echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches<br/>
+watchman shutdown-server<br/>
