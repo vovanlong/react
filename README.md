@@ -100,3 +100,6 @@ echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances<br/>
 echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events<br/>
 echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches<br/>
 watchman shutdown-server<br/>
+
+``watchman watch-del-all``
+``watchman shutdown-server``
