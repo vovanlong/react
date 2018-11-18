@@ -69,7 +69,7 @@ Day 3: week 3
 
 sudo chown long /dev/kvm
 
-``{
+{
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.fontSize": 15,
 
@@ -94,7 +94,7 @@ sudo chown long /dev/kvm
   "editor.fontSize": 16,
   "vsicons.projectDetection.autoReload": true
 }
-``
+
 <br/>
 ``echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
 echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
