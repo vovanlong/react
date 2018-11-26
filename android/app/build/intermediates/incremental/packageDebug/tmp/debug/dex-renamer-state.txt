@@ -1,0 +1,4 @@
+#Sun Nov 25 22:34:10 ICT 2018
+base.0=/home/long/Desktop/genbacoder/coinmarket/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
