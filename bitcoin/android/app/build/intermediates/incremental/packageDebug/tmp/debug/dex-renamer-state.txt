@@ -1,0 +1,4 @@
+#Sat Nov 17 19:29:36 ICT 2018
+base.0=/home/long/Desktop/genbacoder/bitcoin/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

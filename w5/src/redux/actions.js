@@ -1,0 +1,6 @@
+export const ACTION_INCREASE = 'INCREASE';
+export const ACTION_CHANGE_MODE = 'CHANGE_MODE';
+export const ACTION_START = 'ACTION_START';
+export const ACTION_SUCCESS = 'ACTION_SUCCESS';
+export const ACTION_ERROR = 'ACTION_ERROR';
+export const ACTION_LIKE = 'ACTION_LIKE';
