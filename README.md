@@ -96,6 +96,14 @@ sudo chown long /dev/kvm
 }
 
 <br/>
+
+sudo mysql_secure_installation
+sudo mysql -u root -p
+use mysql
+UPDATE user SET plugin='mysql_native_password' WHERE User='root';
+UPDATE mysql.user set authentication_string =PASSWORD('123123123') where user='root';
+FLUSH PRIVILEGES;
+
 echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances<br/>
 echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events<br/>
 echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches<br/>
