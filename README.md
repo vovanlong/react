@@ -111,3 +111,11 @@ watchman shutdown-server<br/>
 
 ``watchman watch-del-all``<br/>
 ``watchman shutdown-server``
+
+Nodejs
+
+``populate``: nó giống như truy vấn giữa các bảng với nhau
+``where in populate``: xét điều kiện
+phân trang:
+``skip``
+
