@@ -1,9 +1,9 @@
 
 config bundle mysql2 error macos
-```gem install mysql2 -v '0.5.3' -- --with-mysql-config=/usr/local/opt/mysql-client/bin/mysql_config \
+gem install mysql2 -v '0.5.3' -- --with-mysql-config=/usr/local/opt/mysql-client/bin/mysql_config \
                  --srcdir=/usr/local/opt/mysql/include --platform=ruby \
                  --with-ldflags=-L/usr/local/opt/openssl/lib \
-                 --with-cppflags=-I/usr/local/opt/openssl/include```
+                 --with-cppflags=-I/usr/local/opt/openssl/include
                  
 reset apache  ``sudo npm start -- --reset-cache``
 
